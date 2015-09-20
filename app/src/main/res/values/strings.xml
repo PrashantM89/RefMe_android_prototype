@@ -2,7 +2,23 @@
 <resources>
 
     <string name="app_name">RefME_android_prototype</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="error_account_expired">Your account has expired.</string>
+    <string name="auth_logged_in">Logged into RefME</string>
+    <string name="auth_logged_out">Logged out of RefME</string>
+    <string name="error_invalid_credentials">Invalid credentials</string>
+    <string name="error_communication">Unable to authenticate. Please check your connection.</string>
+
+    <string-array name="menu_array">
+        <item>Menu 1</item>
+        <item>Menu 2</item>
+    </string-array>
+
+    <string-array name="drawer_list_content">
+        <item>Profile</item>
+        <item>Settings</item>
+        <item>About RefME</item>
+    </string-array>
+
 
 </resources>
