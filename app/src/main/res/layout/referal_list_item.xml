@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+
+    android:padding="4dip">
+
+    <ImageView
+        android:id="@+id/icon"
+
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="6dip"
+
+        android:src="@drawable/rm_avatar"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:id="@+id/companyName"
+        android:layout_height="26dip"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@id/icon"
+        android:text="Company"
+        android:textColor="@color/refme_black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/designation"
+        android:text="Designation"
+        android:layout_below="@+id/pipe"
+        android:layout_alignLeft="@+id/companyName"
+        android:layout_alignStart="@+id/companyName"
+        android:textColor="@color/refme_black"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pipe"
+        android:layout_toRightOf="@id/companyName"
+        android:text=" | "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/experience"
+        android:text="Exp"
+        android:textColor="@color/refme_black"
+        android:layout_alignTop="@+id/pipe2"
+        android:layout_toRightOf="@+id/pipe2"
+        android:layout_toEndOf="@+id/pipe2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pipe2"
+        android:text=" | "
+        android:layout_below="@+id/pipe"
+        android:layout_toRightOf="@+id/designation"
+        android:layout_toEndOf="@+id/designation" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/location"
+        android:text="Location"
+        android:textColor="@color/refme_black"
+        android:layout_above="@+id/experience"
+        android:layout_toRightOf="@+id/pipe"
+        android:layout_toEndOf="@+id/pipe" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/renumeration"
+        android:text="Renumeration"
+        android:textIsSelectable="false"
+        android:layout_below="@+id/designation"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_toEndOf="@+id/icon"
+        android:textColor="@color/refme_black"
+        />
+
+</RelativeLayout>

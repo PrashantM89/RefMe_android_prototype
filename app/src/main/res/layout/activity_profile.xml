@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="org.refme.refme_android_prototype.refme_android.activities.ProfileActivity">
+
+    <ImageView
+        android:layout_width="175dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap to change image"
+        android:id="@+id/textView"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textStyle="bold"
+        android:id="@+id/my_name"
+        android:layout_below="@+id/textView"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView"
+        android:layout_marginTop="23dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Designation"
+        android:textStyle="bold"
+        android:id="@+id/my_designation"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/my_name"
+        android:layout_alignLeft="@+id/my_name"
+        android:layout_alignStart="@+id/my_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CompanyName"
+        android:textStyle="bold"
+        android:id="@+id/my_compamy"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/my_designation"
+        android:layout_alignLeft="@+id/my_designation"
+        android:layout_alignStart="@+id/my_designation" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Experience"
+        android:textStyle="bold"
+        android:id="@+id/my_experience"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/my_compamy"
+        android:layout_alignLeft="@+id/my_compamy"
+        android:layout_alignStart="@+id/my_compamy" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PersonalEmail"
+        android:textStyle="bold"
+        android:id="@+id/my_email"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/my_experience"
+        android:layout_alignLeft="@+id/my_experience"
+        android:layout_alignStart="@+id/my_experience" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HREmail"
+        android:textStyle="bold"
+        android:id="@+id/my_hremail"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/my_email"
+        android:layout_alignLeft="@+id/my_email"
+        android:layout_alignStart="@+id/my_email" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update New Details"
+        android:textStyle="bold"
+        android:id="@+id/editProfilebutton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

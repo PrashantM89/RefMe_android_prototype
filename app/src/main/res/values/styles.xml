@@ -1,8 +1,12 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+    <style name="Theme.RefMe" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <!-- Light.DarkActionBar specific -->
+        <item name="colorPrimary">@color/refme_maroon</item>
+        <item name="colorPrimaryDark">@color/refme_maroon</item>
+
     </style>
+
+
 
 </resources>
